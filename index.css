@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  border:none;
+}
+
+body{
+  background-color:#F2F8F6;
+}
+
+nav{
+  display:flex;
+}
+nav .chairman{
+  border-radius: 50%;
+}
+nav .college{
+  border-radius:4px;
+}
+button{
+  margin:20px;
+  position:absolute;
+  top:80%;
+  left:90%
+}
+.nrmltext{
+  color:white;
+  font-weight:bold;
+  font-size:40px;
+  padding:5px;
+  margin:30px;
+  margin-bottom:0;
+  margin-top:0;
+}
+.temp{
+  margin-top:0;
+}
+
+
+.two-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin:20px;
+  gap:20px;
+  
+}
+.first-box{
+  border: 2px solid black;
+}
+.second-box{
+  
+  border: 2px solid black;
+  text-align: center;
+}
+.second-box p{
+  font-size:3em;
+  margin:3em 0;
+  
+}
+.scroll{
+  position: fixed;
+  bottom:0;
+}
